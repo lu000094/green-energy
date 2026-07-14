@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Greenwatt collects a few practical green energy options for households working with an average budget.">
+  <title>Greenwatt — Green Energy for Average Budgets</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header class="site-header" id="top">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>
+          <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+          Cleaner energy, lower bills
+        </span>
+
+        <span class="topbar-mail">
+          <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          hello@greenwatt.example
+        </span>
+      </div>
+    </div>
+
+    <div class="container nav-brand-row">
+      <a href="#top" class="brand">
+        <span class="brand-mark">
+          <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+        </span>
+        Greenwatt
+      </a>
+
+      <p class="brand-tag">Home energy notes and options</p>
+    </div>
+
+    <nav class="nav-strip">
+      <div class="container">
+        <ul class="nav-bar">
+          <li><a href="#top" class="nav-link current">Home</a></li>
+          <li><a href="#solutions" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#blog" class="nav-link">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- masthead -->
+  <section class="masthead">
+    <div class="container masthead-inner">
+      <span class="hero-icon">
+        <i class="fa-solid fa-solar-panel" aria-hidden="true"></i>
+      </span>
+
+      <p class="hero-eyebrow">Solar, shared power, and home upgrades</p>
+
+      <h1 class="tagline">
+        Cleaner energy without<br>
+        the huge price tag
+      </h1>
+
+      <p class="masthead-sub">
+        A simple guide to a few energy choices that may help regular households
+        cut bills and use cleaner power.
+      </p>
+
+      <a class="cta" href="#solutions">Explore the solutions</a>
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <div class="container cta-band-inner">
+      <p class="cta-band-text">
+        The best option depends on your home, budget, and local programs.
+      </p>
+
+      <a href="#solutions" class="band-link">
+        Compare options
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- solutions -->
+  <main id="solutions">
+    <div class="container reveal">
+      <p class="eyebrow">Our solutions</p>
+
+      <h2 class="section-title">Three options worth comparing</h2>
+      <span class="title-rule" aria-hidden="true"></span>
+
+      <p class="section-intro">
+        Green energy does not look the same for every household. Some people may
+        be able to add solar panels, while others may get more value from shared
+        energy programs or smaller upgrades that reduce daily energy use.
+      </p>
+
+      <div class="stat-chips">
+        <div class="chip">
+          <strong>↓<span class="count">89</span>%</strong>
+          <span>solar PV cost drop since 2010</span>
+        </div>
+
+        <div class="chip">
+          <strong><span class="count">20</span>%</strong>
+          <span>possible saving from some community solar plans</span>
+        </div>
+
+        <div class="chip">
+          <strong>$<span class="count">650</span></strong>
+          <span>possible yearly heat-pump saving</span>
+        </div>
+      </div>
+
+      <!-- buttons -->
+      <div class="button-group">
+        <button type="button" class="selector is-active" value="solar">
+          <i class="fa-solid fa-solar-panel" aria-hidden="true"></i>
+          Rooftop solar
+        </button>
+
+        <button type="button" class="selector" value="community">
+          <i class="fa-solid fa-wind" aria-hidden="true"></i>
+          Community energy
+        </button>
+
+        <button type="button" class="selector" value="efficiency">
+          <i class="fa-solid fa-temperature-arrow-down" aria-hidden="true"></i>
+          Efficiency first
+        </button>
+      </div>
+
+      <section id="dynamic-content" class="content-card">
+        <h3>Rooftop solar with less upfront pressure</h3>
+
+        <img
+          src="./img/rooftop-solar.jpg"
+          alt="Solar panels on a house roof"
+        >
+
+        <p>
+          Rooftop solar is usually the first thing people think about when they
+          hear “green energy,” but the full cost can still be a problem. A lease,
+          payment plan, or power-purchase agreement can make it easier to start
+          because the household does not always have to pay for the whole system
+          at once. For people who can buy their own system, rebates, tax credits,
+          and net-metering programs may help lower the long-term cost.
+        </p>
+      </section>
+
+      <p class="sources">
+        <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+        Figures are based on reports from IRENA, IEA, U.S. DOE, NREL, and EnergySage.
+      </p>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-col footer-brand">
+        <a href="#top" class="brand brand-light">
+          <span class="brand-mark">
+            <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+          </span>
+          Greenwatt
+        </a>
+
+        <p>
+          Greenwatt is a small guide to energy choices that can work for more
+          than just high-income households.
+        </p>
+      </div>
+
+      <div class="footer-col" id="blog">
+        <p class="footer-heading">Useful links</p>
+
+        <ul class="footer-links">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#solutions">Our solutions</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-heading">Follow us</p>
+
+        <ul class="social-links">
+          <li>
+            <a href="#" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="X">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="YouTube">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="footer-credits">
+        &copy; Greenwatt. Built for an energy affordability project.
+      </p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
